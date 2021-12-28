@@ -82,7 +82,7 @@ public class ConditionalStatementExample {
 			System.out.println("외근을 나갑니다.");
 			break;
 		}
-		ㅇㅇ
+		
 		//char 타입
 		char grade = 'B';
 		switch(grade) {
