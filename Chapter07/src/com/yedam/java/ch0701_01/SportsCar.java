@@ -7,10 +7,10 @@ public class SportsCar extends Car {
 		speed += 10;
 	}
 	
-	@Override
-	public void stop() {
-		System.out.println("SportsCar stop");
-		speed = 0;
-	}
+//	@Override
+//	public void stop() {
+//		System.out.println("SportsCar stop");
+//		speed = 0;
+//	}
 	
 }
