@@ -1,4 +1,4 @@
-package com.yedam.java.ch1702_emp13;
+package com.yedam.java.ch1702_emp;
 
 import java.util.*;
 
