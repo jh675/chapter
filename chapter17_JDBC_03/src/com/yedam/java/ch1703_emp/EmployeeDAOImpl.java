@@ -1,8 +1,7 @@
 package com.yedam.java.ch1703_emp;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import com.yedam.java.ch1703_common.DAO;
 

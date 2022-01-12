@@ -52,7 +52,8 @@ public class EmployeeFrame {
 
 	private void searchEmployee() {
 		int empId = inputEmployeeID();
-		System.out.println(empId);
+		Employee emp = empDAO.search(empId);
+		System.out.println(emp);
 	}
 
 	private void selectAllEmployee() {
