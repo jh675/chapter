@@ -33,25 +33,24 @@ public class EmployeesDAO {
 		}
 	}
 
-	// 자원 해제
-	public void disconnect() {
-		try {
-			if(rs != null) rs.close();
-			if(pstmt != null) pstmt.close();
-			if(conn != null) conn.close();
-		} catch(SQLException e) {
-			System.out.println("정상적으로 자원이 해제되지 않았습니다.");
-		}
-	}
 	// DB 서버 접속
 	// -> connect() 메서드
 	
 	// PreparedStatement 객체 생성
-	
 	// SQL 실행
-	
 	// 결과 출력 or 연산
 	// -> 각 CRUD 메서드로 반복사용
+	
+	// 자원 해제
+		public void disconnect() {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch(SQLException e) {
+				System.out.println("정상적으로 자원이 해제되지 않았습니다.");
+			}
+		}
 	
 	// 전체 조회
 	public List<Employees> selectAll() {
