@@ -37,7 +37,6 @@ public class EmployeeFrame {
 	private void insertEmployee() {
 		Employee emp = inputEmployeeInfo();
 		empDAO.insert(emp);
-		
 	}
 
 	private void updateEmployee() {
@@ -66,7 +65,6 @@ public class EmployeeFrame {
 	private void end() {
 		System.out.println("프로그램 종료!");
 	}
-	
 	
 	public Employee inputEmployeeInfo() {
 		Employee emp = new Employee();
